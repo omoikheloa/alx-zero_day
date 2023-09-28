@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "School"
+echo "The school is open!"
+git add 'bash/alx' 'bash/school'
+cat >> 'bash/alx' <<EOF
+echo "ALX School"
+echo "The school is open!"
+git add 'bash/alx' 'bash/school'
+cat >> 'bash/alx' <<EOF
+echo "ALX School"
+
+echo "The school is open!"
